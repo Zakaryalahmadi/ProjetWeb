@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64155667f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Acceuil</title>
+</head>
+<body>
+
+    <!-- HEADER --> 
+    <header>
+        <div class="top-gradient"></div>
+        <div id="ll">
+            <div id="logo">
+                <i class="far fa-compass"></i>
+            </div>
+
+            
+            <nav id="side-nav">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#section1" class="circuit">Circuit</a></li>
+                    <li><a href="connexion.html">Se connecter</a></li>
+                    <li><a href="inscription.html">S'inscrire</a></li>
+                </ul>
+              
+            </nav>
+
+            <p id="btns">
+                <i  id="nav_btn1" class="fas fa-bars"></i>
+            </p>
+        </div>
+        <div id="plus">
+            <div id="desc">
+                <h1 id="titre_header">Vite mon <br> envol</h1>
+                <p class="petite-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit perferendis ut corporis magni? Sint provident inventore deleniti aliquam a fuga veniam eaque nisi, asperiores velit dolor fugit doloribus ut corporis.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore explicabo atque eius reprehenderit voluptatibus libero temporibus architecto hic ipsam veritatis .....
+                </p>
+                <div id="buttons">
+                    <p id="more-btn"><a class="more" href="#">Voir plus...</a></p>
+                    <p><a class="btn-bottom" id="btn-bottom" href = #>↓</a></p>
+                </div>
+            </div> 
+            
+        </div>
+
+        
+    </header>
+
+
+    <!-- PREMIERE SECTION -->
+
+    <section id="section1">
+        <h1 id="sectionTitre">Service</h1>
+        <article>
+            <div>
+                <!-- <h1>HOTEL</h1> -->
+                <div>
+                    <p class="i-back" title="hotel"><i class="fas fa-hotel"></i></p>
+                </div>
+                 <p class="text" > Lorem ipsum dolor, <a href="" >sit amet</a> consectetur Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor, <a href="" >sit amet</a> consecteturLorem ipsum dolor, sit amet consectetur</p>
+            </div>
+            <div>
+                <!-- <h1>ENVOL</h1> -->
+                <div>
+                    <p class="i-back" title="envol"><i class="fab fa-avianex"></i></p>
+                </div>
+                <p class="text"> Lorem ipsum <a href="" >sit amet</a> dolor,consectetur Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor, <a href="" >sit amet</a> consecteturLorem ipsum dolor, sit amet consectetur</p>
+            </div>
+            <div>
+                <!-- <h1>PRIX</h1> -->
+                <div>
+                    <p class="i-back" title="prix"><i class="fas fa-money-bill-alt"></i></p>
+                </div>
+                <p class="text"> Lorem ipsum dolor, <a href="" >sit amet</a> consectetur Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor, <a href="" >sit amet</a> consecteturLorem ipsum dolor, sit amet consectetur</p>
+            </div>
+        </article>
+    </section> 
+
+    <!-- SECONDE SECTION -->
+
+    <section id="section2">
+        <h1 id="section-title">Autour du Monde</h1>
+        <article>
+            <div class="droite">
+                <div class="desc-img">
+                    <h1>Voyage sur l'archipel nippon</h1>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consectetur</p>
+                </div>
+                <div class="style-img">
+                    <figure>
+                        <img class = "img-style" id="pop" width="500" src="img/s5.jpg" alt="">
+                    </figure>
+                    <span class="text-img">Tokyo</span>
+                </div>
+            </div>
+            <div class="gauche">
+                <div class="style-img">
+                    <figure>
+                        <img width="500" id="pop2" class = "img-style" src="img/s6.jpg" alt="">
+                    </figure>
+                    <span class="text-img">Athènes</span>
+                </div>
+                <div class="desc-img">
+                    <h1>Visite historique</h1>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="droite">
+                <div class="desc-img">
+                    <h1>VENEZ EXPLORER</h1>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consecteturLorem ipsum dolor, sit amet consectetur</p>
+                </div>
+
+                <div  class="style-img">
+                    <figure>
+                        <img class = "img-style" id="pop3" width="500" src="img/s7.jpg" alt="">
+                    </figure>
+                    <span class="text-img">Vancouver</span>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- POPUP -->
+
+    <div class="popup" id="popup">
+        <div class="pop_inter">
+            <div class="popup-header">
+                <h1>Voyage sur l'archipel nippon</h1>
+                <p>
+                    <i id="close" class="fas fa-times"></i>
+                </p>
+            </div>
+            <div id="img_desc">
+                <p class="popup-body">
+                    Venez visiter les villes les plus emblématiques du Japon, pays entre tradition et modernité, durant ce voyage, vous pourrez visitez des temples 
+                    comme le fameux centre commercial Pokemon,puis descendrer vers des petits villages de campagnes, pour visitez le mont fuji, et bien plus encore!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="overlay-popup"></div>
+
+    <div class="popup" id="popup2">
+        <div class="pop_inter">
+            <div class="popup-header">
+                <h1>Visite historique en Grèce</h1>
+                <p>
+                    <i id="close2" class="fas fa-times"></i>
+                </p>
+            </div>
+            <div id="img_desc">
+                <p class="popup-body">
+                    Venez participer a notre circuit sur l'histoire de la grèce, la mythologie Grec, son évolution au fil des années,
+                    ses traditions, ses spécialités culinaire, le tout saupoudré de baignade dans la mer méditerranée.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="overlay-popup2"></div>
+
+    <div class="popup" id="popup3">
+        <div class="pop_inter">
+            <div class="popup-header">
+                <h1>Voyage au pays des caribous</h1>
+                <p>
+                    <i id="close3" class="fas fa-times"></i>
+                </p>
+            </div>
+            <div id="img_desc">
+                <p class="popup-body">
+                    Prenez place ! Destination le Canada, Vous pourrez visité les refuges pour animaux, la production d'érable dans une usine spécialisé, 
+                    dégustation de produits locaux. Et encore plein d'autres activitées vous attendes !
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="overlay-popup3"></div>
+
+    <!-- AVANT LE FOOTER -->
+
+    <div id="before-footer">
+        <div id="contener2">
+            <div class="c">
+                <i class="fas fa-mobile-alt"></i>
+                <div>
+                    <h1>MEILLEURE APPLI </h1>
+                    <p>Elu par les internautes et par des professionnels tres serieux ;)</p>
+                </div>
+            </div>
+            <div class="c">
+                <i class="far fa-compass"></i>
+                <div>
+                    <h1>REJOIGNEZ LE LAB'CLIENT VITEMONENVOL</h1>
+                    <p>imaginons ensemble ViteMonEnvol de demain</p>
+                </div>
+               
+            </div>
+        </div>
+        <div id="contener1">
+            <div class="c">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h1>LES INDISPENSABLES ALERTES VITEMONENVOL</h1>
+                    <p>Les abonnes ne savent plus s'en passer. Et vous ?</p>
+                </div>
+            </div>
+            <div id="reseau_sociaux">
+                <nav>
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+       
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div id="hfooter">
+            <!-- about -->
+            <div>
+                <h1>A PROPOS</h1>
+                <nav>
+                    <ul>
+                        <li><a href="">Conditions générales</a></li>
+                        <li><a href="">Données personnelles</a></li>
+                        <li><a href="">Mentions légales</a></li>
+                        <li><a href="">Cookies</a></li>
+                        <li><a href="">Gérer mes cookies</a></li>
+                        <li><a href="">Avis ViteMonEnvol</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- SAV -->
+        <div>
+            <h1>AIDE, SAV & SERVICES</h1>
+                <nav>
+                    <ul>
+                        <li><a href="">SAV</a></li>
+                        <li><a href="">Besoin d'aide ?</a></li>
+                        <li><a href="">Contactez nous !</a></li>
+                        <li><a href="">Publicite</a></li>
+                        <li><a href="">Securite</a></li>
+                    </ul>
+                </nav>
+        </div>
+
+            <!-- GRP vite mon envol -->
+            <div>
+                <h1>LE GROUPE VITEMONENVOL</h1>
+                <nav>
+                    <ul>
+                        <li><a href="">Qui sommes nous ?</a></li>
+                        <li><a href="">Recrutement</a></li>
+                        <li><a href="">Developpement durable </a></li>
+                        <li><a href="">Groupe ViteMonEnvol</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href=""><img width="20" src="img/japon.png" alt="japon" title="japon"></a></li>
+                        <li><a href=""><img width="20" src="img/grece.png" alt="grece" title="grece"></a></li>
+                        <li><a href=""><img width="20" src="img/canada.jpg" alt="canada" title="canada"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!--  MOYEN DE PAIMENT-->
+        <div id="bfooter">
+            
+            <nav>
+                <ul>
+                    <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+                    <li><a href=""><i class="fab fa-cc-mastercard"></i></a></li>
+                    <li><a href=""><i class="fas fa-money-check-alt"></i></a></li>
+                    <li><a href=""><i class="fab fa-paypal"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('.circuit').on('click', function() { 
+                var page = $(this).attr('href'); 
+                var speed = 500; 
+                $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); 
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+html, body, div, span, h1, p{  margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline;}
+body { line-height: 1; font-family: Arial,sans-serif;}
+ul { list-style: none; padding: 0;}
+a{text-decoration: none;}
+
+
+main{
+    background-image: url('../img/bg-insc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+form{position: relative;}
+
+
+form{margin-left: 800px;}
+
+form h1 {
+    text-align: center;
+    position: relative;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+}
+form h1::before{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    bottom: -5px;
+    left: 28%;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+}
+
+form p i{color: grey;}
+
+
+form input {
+    border: none;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-bottom: 1px solid #a9b9c2;
+}
+form input:focus{
+    outline: none;
+}
+
+form .long-input{
+    width: 89%;
+}
+
+
+form #btn{
+    text-align: center;
+    margin-top: 20px;
+}
+form #btn button{
+    cursor: pointer;
+    border: none;
+    background-color: #117bb8;
+    color: white;
+    padding: 10px 20px;
+}
+
+form #btn button:hover{
+    background-color: #2495d6;
+}
+
+main #reseau_sociaux i{
+    color: grey;
+    font-size: 1.2em;
+}
